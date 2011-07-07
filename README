@@ -1,0 +1,33 @@
+Corduroy v .1
+6/7/2012
+
+Zach McArtor
+hackazach.net
+zach@hackazach.net
+
+Corduroy is a lightweight, organizational framework written in CoffeeScript that adds MVCish file organization on 
+top of the robust ExpressJS featureset 
+
+[+] Why ?
+	Instead of placing all your functions into a single app.js file , Corduroy allows you to separate your controllers and models into
+	discrete files which are loaded at server start. This keeps development clean and helps enforce good MVC practice.
+	Add the core, these are all still Express app.get('/' , callback()) type functions.
+
+[+] What about views ?
+	Corduroy doesn't enforce any convention around views. Hopefully all your views are within the 'views' folder. You can
+	still render whatever the hell view you'd like within each function..
+
+
+6/7  - first commit, mostly as a PoC right now. :S 
+
+TODOS:
+	Support multiple HTTP verbs function declaration in a single statement
+	Configuration framework
+	Model loading
+	Controller loading
+
+Thanks for looking!
+
+_Z
+
+
